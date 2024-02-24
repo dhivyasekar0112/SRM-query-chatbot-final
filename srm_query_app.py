@@ -12,6 +12,9 @@ from torch import cuda, bfloat16
 import torch
 import locale
 
+# Install necessary dependencies (Run this command in your terminal or command prompt)
+# pip install accelerate
+
 # Install necessary dependencies
 st.title("PDF QA Bot with Streamlit")
 
