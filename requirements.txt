@@ -1,0 +1,13 @@
+transformers
+accelerate
+einops
+langchain
+xformers
+bitsandbytes
+faiss-gpu
+sentence_transformers
+huggingface_hub
+protobuf==3.20.*
+PyPDF2
+streamlit
+qdrant-client
