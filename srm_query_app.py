@@ -1,4 +1,5 @@
-pip install accelerate
+accelerate
+transformers
 import streamlit as st
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.text_splitter import CharacterTextSplitter
