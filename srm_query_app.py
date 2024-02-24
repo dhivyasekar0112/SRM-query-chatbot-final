@@ -1,4 +1,4 @@
-!pip install -i https://pypi.org/simple/ bitsandbytes
+pip install -i https://pypi.org/simple/ bitsandbytes
 import streamlit as st
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.text_splitter import CharacterTextSplitter
