@@ -11,6 +11,7 @@ from transformers import pipeline, AutoTokenizer
 from torch import cuda, bfloat16
 import torch
 import locale
+import accelerate
 
 # Install necessary dependencies (Run this command in your terminal or command prompt)
 # pip install accelerate
