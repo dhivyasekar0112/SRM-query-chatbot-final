@@ -3,6 +3,7 @@ from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.text_splitter import CharacterTextSplitter
 from PyPDF2 import PdfReader
 import os
+import transformers
 from langchain.vectorstores import Qdrant
 from langchain.chains import VectorDBQA
 from langchain.llms import HuggingFacePipeline
